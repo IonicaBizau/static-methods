@@ -2,4 +2,9 @@
 
 const staticMethods = require("../lib");
 
-console.log(staticMethods());
+class Foo {
+    static bar () { return 42; }
+}
+
+console.log(staticMethods(Foo));
+// [ 'bar' ]

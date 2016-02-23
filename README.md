@@ -15,20 +15,24 @@ $ npm i --save static-methods
 
 const staticMethods = require("static-methods");
 
-console.log(staticMethods());
+class Foo {
+    static bar () { return 42; }
+}
+
+console.log(staticMethods(Foo));
+// [ 'bar' ]
 ```
 
 ## Documentation
 
-### `staticMethods(a, b)`
+### `staticMethods(input)`
 Get the static methods of a JavaScript class.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **Class** `input`: The input class.
 
 #### Return
-- **Number** Return description.
+- **Array** The static methods of the class.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].

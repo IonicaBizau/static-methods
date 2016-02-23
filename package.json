@@ -1,0 +1,29 @@
+{
+  "name": "static-methods",
+  "description": "Get the static methods of a JavaScript class.",
+  "keywords": [
+    "static",
+    "methods",
+    "get",
+    "the",
+    "of",
+    "a",
+    "javascript",
+    "class"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/static-methods.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/static-methods/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/static-methods#readme"
+}

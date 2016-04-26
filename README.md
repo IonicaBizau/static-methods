@@ -1,18 +1,20 @@
+
 # static-methods [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/static-methods.svg)](https://www.npmjs.com/package/static-methods) [![Downloads](https://img.shields.io/npm/dt/static-methods.svg)](https://www.npmjs.com/package/static-methods) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Get the static methods of a JavaScript class.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save static-methods
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-"use strict";
-
 const staticMethods = require("static-methods");
 
 class Foo {
@@ -23,7 +25,8 @@ console.log(staticMethods(Foo));
 // [ 'bar' ]
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `staticMethods(input)`
 Get the static methods of a JavaScript class.
@@ -34,15 +37,18 @@ Get the static methods of a JavaScript class.
 #### Return
 - **Array** The static methods of the class.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`class-methods`](https://github.com/IonicaBizau/class-methods#readme)
 
-## License
+ - [`class-methods`](https://github.com/IonicaBizau/class-methods#readme)—Get the methods of a JavaScript class.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
